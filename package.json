@@ -1,0 +1,28 @@
+{
+  "name": "vuepress-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@vuepress/bundler-webpack": "^2.0.0-beta.45",
+    "echarts": "^5.3.3",
+    "lodash": "^4.17.21",
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.24",
+    "@vuepress/plugin-shiki": "^2.0.0-beta.24",
+    "cross-env": "^7.0.3",
+    "less": "^4.1.2",
+    "prettier": "^2.2.1",
+    "vuepress-plugin-demoblock-plus": "^1.5.1",
+    "vuepress-vite": "^2.0.0-beta.24"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
